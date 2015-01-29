@@ -26,5 +26,5 @@ A modern web browswer is required for redhawk-web with Google Chrome the recomme
 
 As of redhawk-web v1.1, a simulator device is bundled with the image so an RTL device is not necessary. However, if an RTL is present on the host system it may be mounted into the container:
 
-    docker run -it -privileged -p 8080:80 -v /dev/bus/usb:/dev/bus/usb axios/redhawk-web /shell.sh
+    docker run -it -privileged -p 80:80 -v /dev/bus/usb:/dev/bus/usb axios/redhawk-web /shell.sh
 
