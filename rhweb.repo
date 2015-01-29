@@ -1,0 +1,6 @@
+[rhweb]
+name=REDHAWK WEB 1.0
+baseurl=http://yum.axiosengineering.com/redhawk-web/1.1.0
+enabled=1
+gpgcheck=0
+
