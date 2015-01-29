@@ -14,13 +14,13 @@ The image can be pulled from the [Docker Hub Registry](https://registry.hub.dock
 
 The image may be run as a detached container:
 
-    docker run --detach=true -p 8080:80 axios/redhawk-web
+    docker run --detach=true -p 80:80 axios/redhawk-web
 
 Or run interactivily, placing the user into a bash shell:
 
-    docker run -it -p 8080:80 axios/redhawk-web /shell.sh
+    docker run -it -p 80:80 axios/redhawk-web /shell.sh
 
-In the examples above, the -p flag maps the host machines port 8080 to port 80 of the container meaning to view the redhawk-web page, navigate to [http://localhost:8080](http://localhost:8080) in your hosts web browser.
+In the examples above, the -p flag maps the host machines port 80 to port 80 of the container meaning to view the redhawk-web page, navigate to [http://localhost](http://localhost) in your hosts web browser.
 
 A modern web browswer is required for redhawk-web with Google Chrome the recommended and tested choice.
 
