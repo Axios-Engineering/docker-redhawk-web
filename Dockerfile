@@ -1,4 +1,4 @@
-from axios/redhawk:1.10.1
+from axios/redhawk:1.10.2
 MAINTAINER Youssef Bagoulla <youssef.bagoulla@axiosengineering.com>
 
 USER root
